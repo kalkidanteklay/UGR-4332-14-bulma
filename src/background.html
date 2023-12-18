@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>background</title>
 </head>
 <body>
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="#background">BackGround</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="placesvisited.html">Places visited</a>
-        <a href="CV.html">CV</a>
-    </nav>
-    <h1 id="background">Background</h1> 
-    <p>My name is Kalkidan Tekelehaimanot. I was born in April 25, 2003. I am currently a Software 
+    <header class="hero is-primary is-bold" style="background-image: url('image/header\ image.jpg'); height: 200px;">
+        <h1 class="title has-text-black has-text-weight-bold" id="back">Background</h1> 
+    </header>
+    <div class="container">
+        <a class="fas fa-chevron-right is-size-3 has-text-weight-bold is-hidden-desktop" id="button"></a>
+        <div id="mySidebar" class="navbar-menu">
+            <div class="navbar-end box-shadow is-rounded" style="background-image:url('image/sidemenu.webp')">
+                    <a class="navbar-item nav-link has-text-link has-text-weight-bold "  href="home.html">Home</a>
+                    <a class="navbar-item nav-link has-text-link has-text-weight-bold"  href="#back">Background</a>
+                    <a class="navbar-item nav-link has-text-link has-text-weight-bold " href="hobbies.html">Hobbies</a>
+                    <a class="navbar-item nav-link has-text-link has-text-weight-bold " href="placesvisited.html">Places</a>
+                    <a class="navbar-item nav-link has-text-link has-text-weight-bold " href="cv.html">CV</a>
+            </div>
+        </div>
+        <script src="js/navbar.js"> </script>
+        
+    
+        <p>My name is Kalkidan Tekelehaimanot. I was born in April 25, 2003. I am currently a Software 
         Engineering student at AAiT. Although I may not have previous professional experience, I have actively engaged 
-    in various educational pursuits and personal projects that have equipped me with valuable abilities and a strong 
-foundation in my field. I am commmited to continuous learning and professional development. I regularly engage in 
- self-study and online courses to enhance my knowledge. </p>
+        in various educational pursuits and personal projects that have equipped me with valuable abilities and a strong 
+        foundation in my field. I am commmited to continuous learning and professional development. I regularly engage in 
+        self-study and online courses to enhance my knowledge. </p>
+    </div>
+    
+ </body>
+ </html>
